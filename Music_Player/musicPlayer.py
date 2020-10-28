@@ -23,7 +23,7 @@ def resize_image(event):
 root = Tk()
 root.title("Music Player")
 root.geometry('900x500+150+50')
-# root.iconbitmap('music.ico')
+root.iconbitmap('music.ico')
 root.resizable(False, False)
 
 frame = Frame(root, relief='raised', borderwidth=2)
